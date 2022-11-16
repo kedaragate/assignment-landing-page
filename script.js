@@ -6,3 +6,11 @@ exploreIcon.addEventListener("mouseover", () => {
 exploreIcon.addEventListener("mouseout", () => {
   exploreIcon.classList.remove("fa-flip");
 });
+
+const hamburgerMenu = document.getElementsByClassName("hamburger-menu")[0];
+const navLinksContainer = document.getElementsByClassName(
+  "nav-links-container"
+)[0];
+hamburgerMenu.addEventListener("click", () => {
+  navLinksContainer.style.right = "0";
+});
