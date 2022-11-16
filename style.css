@@ -423,6 +423,7 @@ z-index:20;
   }
   .hamburger-menu > div {
     border: 0.2rem solid rgba(239, 39, 45, 1);
+background-color:rgba(239, 39, 45, 1);
   }
   .container {
     margin: 0 auto;
@@ -471,6 +472,9 @@ z-index:20;
     z-index: 2;
     width: 3rem;
     text-align: center;
+background-color:white;
+color:rgba(239, 39, 45, 1)
+border:0.2rem solid rgba(239, 39, 45, 1)
   }
   .prev-card-btn::after {
     display: none;
@@ -483,6 +487,9 @@ z-index:20;
     z-index: 2;
     width: 3rem;
     text-align: center;
+background-color:white;
+color:rgba(239, 39, 45, 1)
+border:0.2rem solid rgba(239, 39, 45, 1)
   }
   .next-card-btn::after {
     display: none;
