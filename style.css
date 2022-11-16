@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgb(55, 55, 55);
 }
+@media (orientation: landscape) {
 .navbar {
   margin: 0.5rem auto;
   width: 80%;
@@ -365,8 +367,8 @@ body {
   color: rgba(239, 39, 45, 1);
   margin: 0.5rem;
 }
-
-@media screen and (min-width: 280px) and (max-width: 912px) {
+}
+@media screen and (min-width: 280px) and (max-width: 912px) and (orientation: landscape) {
   body {
     margin: 0 auto;
     display: flex;
