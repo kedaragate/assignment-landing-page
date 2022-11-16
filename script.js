@@ -13,7 +13,7 @@ const navLinksContainer = document.getElementsByClassName(
 )[0];
 hamburgerMenu.addEventListener("click", () => {
  return navLinksContainer.style.transform = navLinksContainer.style.transform=="translateX(-200%)"?
-"translateX(200%)":"translateX(-200%)"
+"translateX(100%)":"translateX(-200%)"
 }
 
 
