@@ -466,6 +466,7 @@ background-color:rgba(239, 39, 45, 1);
     align-items: center;
     justify-content: flex-start;
 width:100%
+border:2px solid red;
   }
   .prev-card-btn {
     position: absolute;
@@ -500,4 +501,7 @@ border:0.2rem solid rgba(239, 39, 45, 1)
   .card-background {
     width: 90%;
   }
+.footer{
+border:2px solid red;
+}
 }
