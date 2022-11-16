@@ -372,8 +372,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 90vw;
-width:100%;
+    
+width:100vw;
 max-height:fit-content
   }
   .navbar {
