@@ -467,7 +467,7 @@ background-color:rgba(239, 39, 45, 1);
     align-items: center;
     justify-content: flex-start;
 width:100%
-border:2px solid red;
+
   }
   .prev-card-btn {
     position: absolute;
@@ -479,7 +479,8 @@ border:2px solid red;
     text-align: center;
 background-color:white;
 color:rgba(239, 39, 45, 1);
-border:0.2rem solid rgba(239, 39, 45, 1)
+border:0.2rem solid rgba(239, 39, 45, 1);
+margin-top:0.5rem
   }
   .prev-card-btn::after {
     display: none;
@@ -494,7 +495,8 @@ border:0.2rem solid rgba(239, 39, 45, 1)
     text-align: center;
 background-color:white;
 color:rgba(239, 39, 45, 1);
-border:0.2rem solid rgba(239, 39, 45, 1)
+border:0.2rem solid rgba(239, 39, 45, 1);
+margin-top:0.5rem
   }
   .next-card-btn::after {
     display: none;
@@ -503,6 +505,7 @@ border:0.2rem solid rgba(239, 39, 45, 1)
     width: 90%;
   }
 .footer{
+width:100%;
 border:2px solid red;
 }
 }
