@@ -5,7 +5,7 @@ const navLinksContainer = document.getElementsByClassName(
   "nav-links-container"
 )[0];
 hamburgerMenu.addEventListener("click", () => {
- navLinksContainer.style.transform=(navLinksContainer.style.transform=="translateX(-100px))"?
+ navLinksContainer.style.transform=(navLinksContainer.style.transform=="translateX(-100px)")?
 "translateX(100px)":"translateX(-100px)";
 });
 
