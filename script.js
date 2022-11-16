@@ -14,3 +14,9 @@ const navLinksContainer = document.getElementsByClassName(
 hamburgerMenu.addEventListener("click", () => {
   navLinksContainer.style.right = "0";
 });
+
+window.addEventListener("click", e=>{
+if(e.target!==navLinksContainer){
+navLinksContainer.style.right = "100%";
+}
+})
