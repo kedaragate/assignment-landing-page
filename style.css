@@ -399,7 +399,7 @@ max-height:fit-content
    transform:translateX(200px);
 width:200px;
 overflow:hidden;
-  
+  border:2px solid red;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
