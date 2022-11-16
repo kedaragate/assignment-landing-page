@@ -12,7 +12,7 @@ const navLinksContainer = document.getElementsByClassName(
   "nav-links-container"
 )[0];
 hamburgerMenu.addEventListener("click", () => {
- return navLinksContainer.style.right = "(navLinksContainer.style.right==-100%)"?"0":"-100%";
+ return navLinksContainer.style.right = (navLinksContainer.style.right=="-100%")?"0":"-100%";
 });
 
 
