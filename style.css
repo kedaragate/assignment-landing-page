@@ -398,7 +398,7 @@ max-height:fit-content
     top: 0;
    transform:translateX(200px);
 width:200px;
-
+overflow:hidden;
   
     display: flex;
     flex-direction: column;
