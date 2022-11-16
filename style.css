@@ -393,7 +393,7 @@ max-height:fit-content
   .nav-links-container {
     position: absolute;
     top: 0;
-    right:0;
+   transform:translateX(-100px);
   
     display: flex;
     flex-direction: column;
@@ -510,9 +510,7 @@ margin-top:1rem
 width:100%;
 font-size:0.8rem;
 
-.hidden{
-display:none;
-}
+
 }
 
 }
