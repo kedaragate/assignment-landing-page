@@ -8,6 +8,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgb(55, 55, 55);
+overflow: hidden;
 }
 
 .navbar {
