@@ -394,7 +394,7 @@ max-height:fit-content
     position: absolute;
     top: 0;
 
- /* transform:translateX(-200%);*/
+  transform:translateX(200%);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
