@@ -368,7 +368,7 @@ body {
   margin: 0.5rem;
 }
 }
-@media screen and (min-width: 280px) and (max-width: 912px) and (orientation: portrait) {
+@media (orientation: portrait) and screen and (min-width: 280px) and (max-width: 912px)   {
   body {
     margin: 0 auto;
     display: flex;
