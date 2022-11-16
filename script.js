@@ -9,4 +9,4 @@ hamburgerMenu.addEventListener("click", () => {
 
 }
 
-
+navLinksContainer.innerText="hello"
