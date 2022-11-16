@@ -393,7 +393,7 @@ max-height:fit-content
   .nav-links-container {
     position: absolute;
     top: 0;
-   transform:translateX(400px);
+   transform:translateX(200px);
 margin-right:0;
   
     display: flex;
