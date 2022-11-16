@@ -16,7 +16,7 @@ hamburgerMenu.addEventListener("click", () => {
 });
 
 window.addEventListener("click", e=>{
-if(e.target!==nav){
+if(e.target!=nav){
 navLinksContainer.style.right = "100%";
 }
 })
