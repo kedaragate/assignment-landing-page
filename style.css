@@ -377,7 +377,7 @@ body {
   .navbar {
     width: 100vw;
 
-    position: relative;
+    position: fixed;
   }
   .logo {
     font-size: 1.2rem;
@@ -419,6 +419,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+z-index:10;
   }
   .hamburger-menu > div {
     border: 0.2rem solid rgba(239, 39, 45, 1);
