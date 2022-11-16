@@ -7,6 +7,6 @@ const navLinksContainer = document.getElementsByClassName(
 hamburgerMenu.addEventListener("click", () => {
  return navLinksContainer.innerText=(navLinksContainer.style.transform=="translateX(-100%)")?"translateX(100%)":"translateX(-100%)"
 
-}
+})
 
-navLinksContainer.innerText="hello"
+
