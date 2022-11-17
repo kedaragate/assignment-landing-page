@@ -309,7 +309,7 @@ body {
   transform-origin: bottom right; 
   /* z-index: -1; */
   text-align: left;
-  border: 2px solid green;
+ 
   color: white;
  
 }
@@ -409,11 +409,11 @@ body {
     max-width: 90vw;
     width: 300px;
     height: 60vh;
-    overflow: hidden;
+    
     visibility: hidden;
     align-items: flex-start;
     padding: 0.5rem;
-    backdrop-filter: blur(8px);
+   
   }
   .connect-wallet-btn {
     display: none;
