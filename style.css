@@ -8,7 +8,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgb(55, 55, 55);
-overflow: hidden;
+  overflow: hidden;
 }
 
 .navbar {
@@ -369,50 +369,50 @@ overflow: hidden;
   margin: 0.5rem;
 }
 
-@media screen and (min-width: 280px) and (max-width: 912px)   {
+@media screen and (min-width: 280px) and (max-width: 912px) {
   body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-width:100vw;
-max-height:fit-content
+    overflow: hidden;
+    max-width: 100vw;
+    max-height: fit-content;
   }
   .navbar {
     width: 100vw;
 
     position: relative;
+    display: flex;
   }
   .logo {
-    font-size: 1.2rem;
-    padding-left: 0.5rem;
+    font-size: 1rem;
+    padding-left: 0.1rem;
   }
   .search-field {
-    padding: 0.8rem;
-    width: 40%;
-    margin-left: 0.5rem;
+    padding: 0.1rem;
+    max-width: 40%;
+    margin-left: 1rem;
   }
   .nav-links-container {
     position: absolute;
-    top: 0;
-   transform:translateX(200px);
-width:200px;
-
-  
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 1rem;
-    padding: 1rem;
     background-color: white;
-    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
     z-index: 10;
-
-    width: 60%;
-    font-size: 1rem;
-
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+    max-width: 90vw;
+    width: 300px;
+    height: 60vh;
+    overflow: hidden;
+    visibility: hidden;
+    align-items: flex-start;
+    padding: 0.5rem;
+    backdrop-filter: blur(8px);
   }
   .connect-wallet-btn {
     display: none;
@@ -420,25 +420,27 @@ width:200px;
   .hamburger-menu {
     display: block;
 
-    width: 2.5rem;
-    height: 100%;
     position: absolute;
     right: 0;
     top: 0;
+    width: 40px;
+    height: 40px;
+
+    z-index: 20;
+
+    color: rgba(239, 39, 45, 1);
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-z-index:20;
+    justify-content: center;
+    align-items: center;
   }
-  .hamburger-menu > div {
-    border: 0.2rem solid rgba(239, 39, 45, 1);
-background-color:rgba(239, 39, 45, 1);
+  .fa-bars {
+    font-size: 1.5rem;
   }
+
   .container {
     margin: 0 auto;
     height: 90vh;
     width: 100%;
-
 
     display: flex;
     flex-direction: column;
@@ -473,8 +475,7 @@ background-color:rgba(239, 39, 45, 1);
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-width:100%;
-
+    width: 100%;
   }
   .prev-card-btn {
     position: absolute;
@@ -484,10 +485,10 @@ width:100%;
     z-index: 2;
     width: 3rem;
     text-align: center;
-background-color:white;
-color:rgba(239, 39, 45, 1);
-border:0.2rem solid rgba(239, 39, 45, 1);
-margin-top:1rem
+    background-color: white;
+    color: rgba(239, 39, 45, 1);
+    border: 0.2rem solid rgba(239, 39, 45, 1);
+    margin-top: 1rem;
   }
   .prev-card-btn::after {
     display: none;
@@ -500,10 +501,10 @@ margin-top:1rem
     z-index: 2;
     width: 3rem;
     text-align: center;
-background-color:white;
-color:rgba(239, 39, 45, 1);
-border:0.2rem solid rgba(239, 39, 45, 1);
-margin-top:1rem
+    background-color: white;
+    color: rgba(239, 39, 45, 1);
+    border: 0.2rem solid rgba(239, 39, 45, 1);
+    margin-top: 1rem;
   }
   .next-card-btn::after {
     display: none;
@@ -511,11 +512,8 @@ margin-top:1rem
   .card-background {
     width: 90%;
   }
-.footer{
-width:100%;
-font-size:0.8rem;
-
-
-}
-
+  .footer {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 }
