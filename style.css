@@ -301,18 +301,19 @@ body {
   background-color: rgba(239, 39, 45, 1);
   padding: 0.5rem;
   margin: 1rem;
-  width: 4rem;
+  width: 3rem;
   border: none;
   cursor: pointer;
   position: relative;
-  transform: skewX(-20deg);
-  transform-origin: bottom right;
+  /* transform: skewX(-20deg); */
+  /* transform-origin: bottom right; */
   /* z-index: -1; */
   text-align: left;
-
+  border: 2px solid green;
   color: white;
+  clip-path: polygon(20% 100%, 100%100%, 0 0);
 }
-.next-card-btn::after {
+/* .next-card-btn::after {
   position: absolute;
   display: block;
   content: "";
@@ -325,7 +326,7 @@ body {
   background: white;
   transform: skewX(20deg);
   z-index: -1;
-}
+} */
 
 .next-card-btn:hover {
   background: rgb(239, 39, 45);
