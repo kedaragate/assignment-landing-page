@@ -8,7 +8,6 @@
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgb(55, 55, 55);
-  
 }
 
 .navbar {
@@ -112,11 +111,11 @@ body {
 .slanting-mid-div-on-btn {
   position: absolute;
 
-  top: 0%;
+  top: 0;
   left: 40%;
   width: 0.5rem;
   margin-top: -1rem;
-  height: 200%;
+  height: 150%;
   background-color: white;
 
   transform: skewX(-20deg);
@@ -305,13 +304,12 @@ body {
   border: none;
   cursor: pointer;
   position: relative;
-  transform: skewX(-20deg); 
-  transform-origin: bottom right; 
+  transform: skewX(-20deg);
+  transform-origin: bottom right;
   /* z-index: -1; */
   text-align: left;
- 
+
   color: white;
- 
 }
 .next-card-btn::after {
   position: absolute;
@@ -326,7 +324,7 @@ body {
   background: white;
   transform: skewX(20deg);
   z-index: -1;
-} 
+}
 
 .next-card-btn:hover {
   background: rgb(239, 39, 45);
@@ -370,7 +368,7 @@ body {
   margin: 0.5rem;
 }
 
-@media screen and (min-width: 280px) and (max-width: 912px) {
+@media screen and (min-width: 280px) and (max-width: 600px) {
   body {
     margin: 0 auto;
     display: flex;
@@ -409,11 +407,10 @@ body {
     max-width: 90vw;
     width: 300px;
     height: 60vh;
-    
+
     visibility: hidden;
     align-items: flex-start;
     padding: 0.5rem;
-   
   }
   .connect-wallet-btn {
     display: none;
@@ -473,48 +470,22 @@ body {
     margin-bottom: 1rem;
     position: relative;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 100%;
   }
   .prev-card-btn {
-    position: absolute;
-    bottom: 0;
-    left: 2rem;
-    transform: skewX(0deg);
-    z-index: 2;
-    width: 3rem;
-    text-align: center;
-    background-color: white;
-    color: rgba(239, 39, 45, 1);
-    border: 0.2rem solid rgba(239, 39, 45, 1);
-    margin-top: 0.5rem;
-margin-bottom:10%
-  }
-  .prev-card-btn::after {
     display: none;
   }
-  .next-card-btn {
-    position: absolute;
-    bottom: 0;
 
-    right: 2rem;
-    transform: skewX(0deg);
-    z-index: 2;
-    width: 3rem;
-    text-align: center;
-    background-color: white;
-    color: rgba(239, 39, 45, 1);
-    border: 0.2rem solid rgba(239, 39, 45, 1);
-    margin-top: 0.5rem;
-margin-bottom:10%;
-  }
-  .next-card-btn::after {
+  .next-card-btn {
     display: none;
   }
+
   .card-background {
     width: 90%;
+    height: 100%;
   }
   .footer {
     width: 100%;
